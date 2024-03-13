@@ -1,7 +1,7 @@
 # Análise de Cancelamento
 O projeto foi criado com o intuito de analisar uma base de dados de clientes de uma empresa, onde se faz todo o tratamento dessas informações e é retornado em formato de gráfico (para mais fácil entendimento) as causas dos cancelamentos. Ao final é mostrado o impacto positivo para a empresa caso esses cancelamentos fossem resolvidos, que, no exemplo utilizado seria uma diminuição de 38%.
 ## Funcionamento
-- Importar a biblioteca pandas e ler a base de dados com **tabela = pd.read_csv(‘arquivo’)*;
+- Importar a biblioteca pandas e ler a base de dados com **tabela = *pd.read_csv(‘arquivo’)*;
 - Retirar as colunas inúteis para a análise com tabela.drop(columns=x);
 - Visualizar as informações da base de dados com tabela.info() e retirar linhas que contenham erros de preenchimento com tabela.dropna();
 - Visualizar a quantidade e porcentagem dos cancelamentos para melhor análise;
